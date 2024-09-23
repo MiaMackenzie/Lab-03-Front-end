@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
+
+.artist-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .artist-card {
+    border: 5px solid #2f69b1;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 200px;
+    background-color: #cad6ee;
+  }
+
+  .artist-image {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center top;
+  }
+  
